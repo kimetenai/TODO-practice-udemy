@@ -11,7 +11,7 @@ const onClickAdd = () => {
   div.className = "list-row";
 
   //liタグ生成
-  const li = document.getElement("li");
+  const li = document.createElement("li");
   console.log(li);
 };
 
